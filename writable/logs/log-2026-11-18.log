@@ -1,0 +1,166 @@
+CRITICAL - 2026-11-18 01:55:36 --> Invalid file: "halaman_utama.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('halaman_utama.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('halaman_utama', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('halaman_utama')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\new rean\\latihan 1\\htdocs\\codeigniter4-framework-v4.3.4-0-g5d3d4b2\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2026-11-18 02:00:04 --> Invalid file: "utama.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('utama.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('utama', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('utama')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\new rean\\latihan 1\\htdocs\\codeigniter4-framework-v4.3.4-0-g5d3d4b2\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2026-11-18 02:00:05 --> Invalid file: "utama.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('utama.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('utama', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('utama')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\new rean\\latihan 1\\htdocs\\codeigniter4-framework-v4.3.4-0-g5d3d4b2\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2026-11-18 02:02:41 --> Invalid file: "utama.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('utama.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('utama', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('utama')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\new rean\\latihan 1\\htdocs\\codeigniter4-framework-v4.3.4-0-g5d3d4b2\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2026-11-18 02:02:42 --> Invalid file: "utama.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('utama.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('utama', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('utama')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\new rean\\latihan 1\\htdocs\\codeigniter4-framework-v4.3.4-0-g5d3d4b2\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2026-11-18 02:03:41 --> Invalid file: "utama.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('utama.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('utama', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('utama')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\new rean\\latihan 1\\htdocs\\codeigniter4-framework-v4.3.4-0-g5d3d4b2\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2026-11-18 02:20:14 --> Invalid file: "utama.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('utama.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('utama', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('utama')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\new rean\\latihan 1\\htdocs\\codeigniter4-framework-v4.3.4-0-g5d3d4b2\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2026-11-18 02:20:16 --> Invalid file: "utama.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('utama.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('utama', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('utama')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\new rean\\latihan 1\\htdocs\\codeigniter4-framework-v4.3.4-0-g5d3d4b2\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2026-11-18 02:20:16 --> Invalid file: "utama.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('utama.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('utama', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('utama')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\new rean\\latihan 1\\htdocs\\codeigniter4-framework-v4.3.4-0-g5d3d4b2\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2026-11-18 02:20:28 --> Invalid file: "utama.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('utama.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('utama', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('utama')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\new rean\\latihan 1\\htdocs\\codeigniter4-framework-v4.3.4-0-g5d3d4b2\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2026-11-18 02:43:48 --> Invalid file: "halamanBeranda.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('halamanBeranda.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('halamanBeranda', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('halamanBeranda')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\new rean\\latihan 1\\htdocs\\codeigniter4-framework-v4.3.4-0-g5d3d4b2\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2026-11-18 02:48:44 --> Invalid file: "footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('footer', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('footer')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-11-18 02:53:58 --> Invalid file: "footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('footer', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('footer')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-11-18 02:53:59 --> Invalid file: "footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('footer', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('footer')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-11-18 02:54:00 --> Invalid file: "footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('footer', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('footer')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2026-11-18 02:54:31 --> Invalid file: "footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('footer', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('footer')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\new rean\\latihan 1\\htdocs\\codeigniter4-framework-v4.3.4-0-g5d3d4b2\\codeigniter4-framework-5d3d4b2\\public\\index.php')
+CRITICAL - 2026-11-18 02:54:33 --> Invalid file: "footer.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('footer.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('footer', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('footer')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\new rean\\latihan 1\\htdocs\\codeigniter4-framework-v4.3.4-0-g5d3d4b2\\codeigniter4-framework-5d3d4b2\\public\\index.php')

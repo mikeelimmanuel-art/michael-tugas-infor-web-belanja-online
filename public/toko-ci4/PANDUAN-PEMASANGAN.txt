@@ -1,0 +1,90 @@
+PANDUAN PEMASANGAN (CodeIgniter 4)
+==================================
+
+Isi zip ini mengikuti struktur folder proyek CodeIgniter 4.
+Ekstrak langsung ke folder utama proyek (yang berisi app/, public/, writable/),
+lalu pilih "Replace" jika ditanya soal file yang sama.
+
+File yang ditambahkan / diganti
+-------------------------------
+app/Controllers/Home.php            (menggantikan Home.php lama)
+app/Controllers/Auth.php            (baru)
+app/Controllers/Akun.php            (baru)
+app/Filters/AuthFilter.php          (baru)
+app/Libraries/PenggunaStore.php     (baru)
+app/Views/beranda.php               (menggantikan beranda.php lama)
+app/Views/login.php                 (baru)
+app/Views/ganti_akun.php            (baru)
+app/Views/halaman_sementara.php     (baru)
+public/css/toko.css                 (baru)
+public/js/toko.js                   (baru)
+
+HAPUS file lama ini jika ada:
+- app/Controllers/auth.php  (huruf kecil). Diganti Auth.php. Dua file ini bentrok.
+- file lain buatan sendiri yang memakai class bernama Auth, Akun, atau Home.
+
+
+LANGKAH 1 - Daftarkan filter
+----------------------------
+Buka app/Config/Filters.php. Di dalam $aliases, tambahkan satu baris:
+
+    public array $aliases = [
+        'csrf'     => CSRF::class,
+        ...
+        'auth'     => \App\Filters\AuthFilter::class,   // <-- TAMBAHKAN INI
+    ];
+
+
+LANGKAH 2 - Isi route
+---------------------
+Buka app/Config/Routes.php. HAPUS tiga baris lama ini:
+
+    $routes->get('/', 'Home::index');
+    $routes->get('toko', 'Home::index');
+    $routes->get('beranda', 'Home::beranda');
+
+LALU GANTI dengan:
+
+    // Halaman yang wajib login
+    $routes->get('/',        'Home::index',  ['filter' => 'auth']);
+    $routes->get('beranda',  'Home::index',  ['filter' => 'auth']);
+    $routes->get('produk',   'Home::produk', ['filter' => 'auth']);
+    $routes->get('kontak',   'Home::kontak', ['filter' => 'auth']);
+
+    $routes->get('akun',        'Akun::index',      ['filter' => 'auth']);
+    $routes->post('akun/nama',  'Akun::simpanNama', ['filter' => 'auth']);
+    $routes->post('akun/sandi', 'Akun::simpanSandi', ['filter' => 'auth']);
+
+    // Halaman login dan logout
+    $routes->get('login',   'Auth::login');
+    $routes->post('login',  'Auth::prosesLogin');
+    $routes->get('logout',  'Auth::logout');
+
+Simpan dengan Ctrl+S.
+
+
+LANGKAH 3 - Jalankan
+--------------------
+Di terminal, dari folder proyek:
+
+    php spark serve
+
+Buka:  http://localhost:8080/login
+
+Akun awal:
+    username : admin
+    sandi    : admin123
+(akun ini dibuat otomatis di writable/pengguna.php saat pertama kali dipakai;
+ segera ganti sandinya lewat menu "Ganti sandi dan nama")
+
+
+CATATAN
+-------
+- Jalankan lewat "php spark serve" agar folder public menjadi akar situs.
+  Jika memakai XAMPP, arahkan alamat ke folder public, bukan ke folder proyek.
+- Folder writable/ harus bisa ditulis oleh PHP (biasanya sudah demikian).
+- Opsional tapi disarankan: aktifkan filter CSRF di app/Config/Filters.php
+  pada $globals['before'] dengan menghapus tanda komentar pada 'csrf'.
+  Form sudah memakai csrf_field() sehingga akan langsung bekerja.
+- Menu Produk dan Kontak kami mengarah ke halaman sementara
+  (Home::produk dan Home::kontak). Ganti isinya saat halamannya sudah dibuat.
